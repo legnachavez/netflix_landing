@@ -166,11 +166,12 @@ img {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 /*Container*/
 
 .container {
