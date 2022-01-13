@@ -52,7 +52,7 @@ img {
   width: 100%;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
-  box-shadow: inset 120px 100px 250px #0000, inset -120px -100px 250px #000000;
+  box-shadow: inset 120px 100px 250px #000, inset -60px -60px 140px #000;
 }
 
 .showcase-content {
@@ -144,6 +144,18 @@ img {
   padding: 3rem 0;
   background: #000;
   color:#fff
+}
+
+/* Hide content*/
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
+
+.show {
+  display: block !important;
 }
 
 #tab-1-content .tab-1-content-inner {
