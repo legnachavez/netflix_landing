@@ -194,6 +194,10 @@ img {
   margin-bottom: 1rem;
   color: #fff;
 }
+.text-md {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
 
 .text-center {
   text-align: center;
@@ -234,7 +238,7 @@ img {
 }
 
 .btn-lg {
-  font-size: 2rem;
-  padding: 1.5rem 2.1rem;
+  font-size: 1rem;
+  padding: 0.8rem 1.3rem;
   text-transform: uppercase;
 }
