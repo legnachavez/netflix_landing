@@ -138,6 +138,22 @@ img {
 .tabs-border {
   border-bottom: var(--primary-color) 4px solid;
 }
+/* Tab Content */
+
+.tab-content {
+  padding: 3rem 0;
+  background: #000;
+  color:#fff
+}
+
+#tab-1-content .tab-1-content-inner {
+  display: grid;
+  grid-template-columns: repeat(2, fr);
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
 /*Container*/
 
 .container {
@@ -146,7 +162,28 @@ img {
   overflow: hidden;
   padding: 0 2rem;
 }
+/* Text Styles*/
 
+.text-xl {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+
+}
+
+.text-lg {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-dark {
+  color: #999;
+}
 /*Buttons */
 
 .btn {
